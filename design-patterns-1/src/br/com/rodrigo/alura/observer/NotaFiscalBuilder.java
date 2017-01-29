@@ -1,6 +1,6 @@
 package br.com.rodrigo.alura.observer;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.Calendar;
 import java.util.List;
 
@@ -16,9 +16,9 @@ public class NotaFiscalBuilder {
 	
 	private List<AcaoAposGerarNota> acoesAposGerarNota;
 	
-	public NotaFiscalBuilder() {
+	public NotaFiscalBuilder(List<AcaoAposGerarNota> acoesAposGerarNota) {
 		this.itens = new ArrayList<>();
-		this.acoesAposGerarNota = new ArrayList<>();
+		this.acoesAposGerarNota = acoesAposGerarNota;
 		this.dataDeEmissao = Calendar.getInstance();
 	}
 	
