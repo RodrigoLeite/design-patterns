@@ -15,6 +15,10 @@ public class TestInterpreter {
 		int resultado = soma.avalia();
 		System.out.println(resultado);
 		
+		Expressao raizQuadrada = new RaizQuadrada(new Numero(49));
+		int resultadoRaiz = raizQuadrada.avalia();
+		System.out.println(resultadoRaiz);
+		
 	}
 
 }
