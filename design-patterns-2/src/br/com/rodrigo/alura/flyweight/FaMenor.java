@@ -1,10 +1,10 @@
 package br.com.rodrigo.alura.flyweight;
 
-public class Mi implements Nota {
+public class FaMenor implements Nota {
 
 	@Override
 	public String simbolo() {
-		return "E";
+		return "Fm";
 	}
 
 }
